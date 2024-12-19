@@ -17,8 +17,8 @@ export default function FormInput({
     <div className="flex flex-col gap-2">
       <input
         name={name}
-        className="bg-transparent rounded-md w-full h-10 focus:outline-none ring-2
-            focus:ring-4 transition ring-neutral-200 focus:ring-orange-500 border-none
+        className="bg-transparent rounded-full w-full h-10 focus:outline-none ring-2 pl-10 text-cyan-800
+            focus:ring-3 transition ring-neutral-200 focus:ring-red-400 border-none
              placeholder:text-neutral-400 placeholder:pl-2"
         type={type}
         placeholder={placeholder}
